@@ -68,7 +68,7 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr v-for="(role, index) in roles" :key="role.id">
+                    <tr v-for="(role, index) in roles.data" :key="role.id">
                       <td>{{ index + 1 }}</td>
                       <td>{{ role.name }}</td>
 
